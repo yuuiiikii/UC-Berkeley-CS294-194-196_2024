@@ -1,42 +1,15 @@
-# Assignment Record
+# Assignment record
 
-This page tracks the course work represented in this repository. It intentionally distinguishes documented study notes from original submitted artifacts.
+No official lab or course-project submission is stored here yet. The current code under `experiments/` is my own course-adjacent practice, so I do not count it as graded work.
 
-## Current Status
+## What is in the repository
 
-| Item | Repository status | Evidence |
+| Week | Notes | Small experiment |
 | --- | --- | --- |
-| Week 1 reading summary | Documented | [week-01.md](../week-01.md) |
-| Lecture 1 notes | Documented | [lecture-01/notes.md](../lecture-01/notes.md) |
-| Focused paper record | Documented | [llm-self-correction/notes.md](../llm-self-correction/notes.md) |
-| Course lab implementation | Not added | Original code and run results still need to be supplied |
-| Course project proposal | Not added | Original proposal still needs to be supplied |
-| Course project report | Not added | Original report still needs to be supplied |
+| 01 | [Lecture](../lectures/lecture-01/notes.md), [self-correction paper](../readings/llm-self-correction/notes.md), [reflection](../reflections/week-01.md) | None |
+| 02 | [Lecture](../lectures/lecture-02/notes.md), [ReAct](../readings/react/notes.md), [WebShop](../readings/webshop/notes.md), [reflection](../reflections/week-02.md) | [Minimal time agent](../experiments/react/README.md) |
+| 03 | [Lecture](../lectures/lecture-03/notes.md), [AutoGen](../readings/autogen/notes.md), [StateFlow](../readings/stateflow/notes.md), [reflection](../reflections/week-03.md) | [Single-agent / multi-agent comparison](../experiments/multi-agent/README.md) |
 
-## What Counts as an Actual Submission
+When an official assignment is added, its directory should include the prompt or course link, runnable commands, the submitted artifact, and the results I actually obtained. Notes about an idea are not evidence that I completed the corresponding assignment.
 
-For a lab or project entry, add the original artifact together with:
-
-- the problem statement or a link to the official prompt;
-- the approach and assumptions;
-- reproducible commands or environment information;
-- results, metrics, and representative failure cases;
-- a short reflection on what changed after debugging or evaluation.
-
-A note that describes an experiment is not a substitute for experiment code or results. This repository does not claim completion for items that are not backed by those artifacts.
-
-## Suggested Layout for Future Additions
-
-```text
-assignments/
-  lab-01/
-    README.md
-    src/
-    results/
-  project/
-    proposal.md
-    milestone-01.md
-    final-report.md
-```
-
-Before publishing any assignment solution, check the course policy and remove credentials, private data, classmates' work, and materials that the instructor did not authorize for redistribution.
+Before anything from a graded assignment is published, I also need to check the course policy and remove credentials, private data, classmates' work, and material that cannot be redistributed.

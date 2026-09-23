@@ -1,24 +1,25 @@
-# CS 194/294-196: Large Language Model Agents
+# Learning LLM agents
 
-Notes, reading records, and assignment documentation for the Fall 2024 Berkeley course archive.
+I came to this course after an Agent internship and a few internal prototypes. One of them was a research assistant with query rewriting, hybrid retrieval, reranking, context packing, citation-aware generation, and a small tool router. I had also tried planner/executor/reviewer workflows and basic conversation-state management.
 
-> This repository is an independently organized study record. It is not an official UC Berkeley course repository, and entries are labeled when they are notes rather than completed submissions.
+The weekly order follows [UC Berkeley CS 194/294-196: Large Language Model Agents](https://rdi.berkeley.edu/llm-agents/f24).
 
-## Contents
+The systems worked well enough to demo, but some design choices were still based on habit. A reviewer sounded like an independent check even when it saw the same context. A tool call made a workflow look agentic even when the next step was fixed in code. This repository is where I slow those decisions down and test them in smaller examples.
 
-- [Week 01 learning record](week-01.md)
-- [Lecture 01 notes](lecture-01/notes.md)
-- [LLM self-correction reading record](llm-self-correction/notes.md)
-- [Assignment status](assignments/README.md)
+Most notes are in Chinese because that is faster for me while learning. Technical terms, code, paths, and short project descriptions stay in English.
 
-## Scope and Attribution
+## Repository map
 
-The course page is available at <https://rdi.berkeley.edu/llm-agents/f24>. Course topics and paper titles are referenced for study purposes. Original explanations and reflections in this repository are written as a personal learning record.
+- `lectures/` contains my lecture notes.
+- `readings/` contains paper notes and questions I have not settled yet.
+- `experiments/` contains small runnable examples. They are intentionally narrower than full paper reproductions.
+- `reflections/` records what changed after each week.
+- `projects/` is reserved for work that grows beyond a small experiment.
 
-## Publication Note
+This is a learning repository, not a polished implementation. Some conclusions will probably change as the course moves on.
 
-This archive does not claim completion of labs, experiments, or projects unless the original code, commands, data or prompts, results, and failure analysis are included. Please check course policy before redistributing official materials or assignment solutions.
+## Progress
 
-## Existing Files
-
-The repository also contains `需求说明书 (2).docx`, a 2025 product requirements document for a cloud-drive project. It is retained as an existing repository file and is not treated as course material.
+- Week 01: LLM reasoning and self-correction
+- Week 02: Agent boundaries, ReAct, WebShop, and a minimal tool loop
+- Week 03: AutoGen, StateFlow, and a small single-agent / multi-agent comparison
