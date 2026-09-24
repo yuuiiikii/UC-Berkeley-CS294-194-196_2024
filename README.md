@@ -23,3 +23,4 @@ This is a learning repository, not a polished implementation. Some conclusions w
 - Week 01: LLM reasoning and self-correction
 - Week 02: Agent boundaries, ReAct, WebShop, and a minimal tool loop
 - Week 03: AutoGen, StateFlow, and a small single-agent / multi-agent comparison
+- Week 04: Enterprise grounding, long-context retrieval, and a local policy RAG
